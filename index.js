@@ -37,3 +37,5 @@ app.use("/api/products", products);
 app.listen(PORT, () => {
   debug("server is listening on port " + PORT);
 });
+
+module.exports = app;
